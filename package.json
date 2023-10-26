@@ -6,5 +6,15 @@
   "repository": "https://github.com/dyankastutara/api-realtime-socket-io.git",
   "author": "<dyankastutara19@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
 }
