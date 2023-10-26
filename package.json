@@ -1,0 +1,10 @@
+{
+  "name": "api-realtime-socket-io",
+  "version": "1.0.0",
+  "description": "API Realtime library socket.io dengan express js framework nodejs",
+  "main": "app.js",
+  "repository": "https://github.com/dyankastutara/api-realtime-socket-io.git",
+  "author": "<dyankastutara19@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
