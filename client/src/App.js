@@ -31,7 +31,7 @@ function App() {
     return () => {
       socket.off('connect', onConnect);
       socket.off('disconnect', onDisconnect);
-      socket.off('foo', onFooEvent);
+      socket.off('chat-1-message', onFooEvent);
     };
   }, []);
   console.log(fooEvents);
